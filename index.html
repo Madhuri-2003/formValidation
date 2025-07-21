@@ -12,19 +12,28 @@
     <form id="registrationForm">
       <h2>Register</h2>
 
+      <!-- Message Display Box -->
       <div id="message"></div>
 
+      <!-- Full Name -->
       <input type="text" id="name" placeholder="Full Name" required>
+
+      <!-- Email -->
       <input type="email" id="email" placeholder="Email" required>
+
+      <!-- Phone Number -->
       <input type="text" id="phone" placeholder="Phone Number" maxlength="10" required>
 
-      
+      <!-- Password -->
       <div class="password-wrapper">
         <input type="password" id="password" placeholder="Password" required>
-        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
         <button type="button" id="togglePassword">Show</button>
       </div>
 
+      <!-- Confirm Password -->
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+
+      <!-- Submit -->
       <button type="submit">Submit</button>
     </form>
   </div>
